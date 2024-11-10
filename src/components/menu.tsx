@@ -36,7 +36,7 @@ export function SheetDemo() {
             {navItems.map((item) => (
               <Link
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={`/${item.toLowerCase()}`}
                 className="text-lg text-gray-600 hover:text-blue-500 transition-colors px-4"
               >
                 {item}
