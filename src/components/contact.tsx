@@ -13,7 +13,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4 mt-96 md:mt-0 overflow-hidden ">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:ml-9 ">
           {/* Left Side - Form */}
-          <motion.div
+          <motion.div 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
