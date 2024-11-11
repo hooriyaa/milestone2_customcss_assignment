@@ -46,39 +46,19 @@ export default function Navbar() {
 
         <div className="text-gray-300  transition-colors group hidden md:flex gap-4 mt-4 px-3 mb-5">
           {" "}
-          <Link
-            target="_blank"
-            href={"https://www.facebook.com/share/1Er84PR1oV/?mibextid=qi2Omg"}
-            className="text-gray-500 text-3xl "
-          >
+          <Link href="#" className="text-gray-500 text-3xl ">
             <FaFacebook className="w-5 h-5 hover:text-[#1877F2] " />
           </Link>
-          <Link
-            target="_blank"
-            href={"https://github.com/hooriyaa"}
-            className="text-gray-500 text-3xl"
-          >
+          <Link href="#" className="text-gray-500 text-3xl">
             <FaGithub className="w-5 h-5 hover:text-gray-800 " />
           </Link>
-          <Link
-            target="_blank"
-            href={"https://github.com/hooriyaa"}
-            className="text-gray-500 text-3xl "
-          >
+          <Link href="#" className="text-gray-500 text-3xl ">
             <FaTwitter className="w-5 h-5 hover:text-[#1DA1F2] " />
           </Link>
-          <Link
-            target="_blank"
-            href={"https://github.com/hooriyaa"}
-            className="text-gray-500 text-3xl "
-          >
+          <Link href="#" className="text-gray-500 text-3xl ">
             <FaInstagram className="w-5 h-5 hover:text-[#E4405F] " />
           </Link>
-          <Link
-            target="_blank"
-            href={"https://github.com/hooriyaa"}
-            className="text-gray-500 text-3xl "
-          >
+          <Link href="#" className="text-gray-500 text-3xl ">
             <FaYoutube className="w-5 h-5 hover:text-[#FF0000] " />
           </Link>
         </div>

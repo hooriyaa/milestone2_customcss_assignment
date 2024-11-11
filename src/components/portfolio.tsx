@@ -9,17 +9,17 @@ import img4 from "../../public/portfolio/img4.png";
 
 export default function PortfolioSection() {
   return (
-    <section className="min-w-full py-12 overflow-hidden bg-white mx-16 md:mx-0">
-      <div className="container mx-auto px-4 max-w-6xl md:mt-14">
+    <section className="w-full py-12 bg-white">
+      <div className="container px-4 mx-auto max-w-6xl md:mt-14">
         <div className="flex flex-col justify-center md:flex-row gap-6 items-start">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="md:w-1/2 lg:w-2/5 mt-20 "
+            className="md:w-1/2 lg:w-2/5 mt-20"
           >
-            <h2 className="text-4xl font-serif mb-4 ">Portfolio</h2>
+            <h2 className="text-4xl font-serif mb-4">Portfolio</h2>
             <p className="text-gray-600 mb-6 pr-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus
               scelerisque viverra at id senectus scelerisque.
@@ -38,16 +38,16 @@ export default function PortfolioSection() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="md:w-1/2 lg:w-3/5"
+            className="sm:w-1/2 lg:w-3/5 w-full"
           >
-       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-3 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-3 ml-10">
               {/* Top row */}
               <div className="aspect-[4/3] relative h-48 sm:h-40 md:h-48 lg:h-56">
                 <Image
                   alt="Portfolio 1"
                   src={img1}
                   fill
-                  className="object-contain rounded-lg"
+                  className="object-cover rounded-lg"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
@@ -56,7 +56,7 @@ export default function PortfolioSection() {
                   alt="Portfolio 2"
                   src={img2}
                   fill
-                  className="object-contain rounded-lg"
+                  className="object-cover rounded-lg"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
@@ -76,7 +76,7 @@ export default function PortfolioSection() {
                   alt="Portfolio 4"
                   src={img4}
                   fill
-                  className="object-contain rounded-lg"
+                  className="object-cover rounded-lg"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>

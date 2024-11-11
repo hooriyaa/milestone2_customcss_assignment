@@ -4,7 +4,7 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/logo2.jpeg";
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 
 const navItems = ["Home", "About", "Portfolio", "Contact"];
 
@@ -12,8 +12,8 @@ export function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild className="md:hidden">
-        <Button variant="ghost" size="icon" className="h-10 w-10">
-          <CgMenuRightAlt className="h-6 w-6" />
+        <Button variant="ghost" size="icon" className="h-16 w-16">
+          <CgMenuRightAlt className="h-16 w-16" />
         </Button>
       </SheetTrigger>
       <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-gray-50">
@@ -48,6 +48,7 @@ export function SheetDemo() {
                 className="text-gray-600  transition-colors group flex gap-4 mt-4 px-3 mb-12"
               >
                 <FaFacebook className="w-5 h-5 hover:text-[#1876f2d8]  " />
+                <FaGithub className="w-5 h-5 hover:text-gray-800 " />
                 <FaTwitter className="w-5 h-5 hover:text-[#1DA1F2] " />
                 <FaInstagram className="w-5 h-5 hover:text-[#E4405F] " />
                 <FaYoutube className="w-5 h-5 hover:text-[#FF0000] " />
